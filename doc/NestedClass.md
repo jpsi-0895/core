@@ -53,3 +53,51 @@ Static nested classes are accessed using the enclosing class name:
 
 Let me elaborate in more details.
 
+## Static Classes
+
+Static classes are the easiest kind to understand beccuase they have nothing to do with instances of the containg class.
+
+```java
+
+package pizza;
+
+public class Rhino {
+
+    ...
+
+    public static class Goat{
+        ...
+    }
+}
+
+access by using > pizza.Rhino.Goat
+
+```
+
+## Inner Class
+
+An inner class is a class declared as a non-static member of another class:
+
+```java
+package pizza;
+
+public class Rhino {
+
+    public class Goat {
+        ...
+    }
+
+    private void jerry() {
+        Goat g = new Goat();
+    }
+}
+object:
+
+Rhino rhino = new Rhino();
+Rhino.Goat goat = rhino.new Goat();
+
+```
+
+Like with a static class, the inner class is known as qualified by its containing class name, pizza.Rhino.Goat, but inside the containing class, it can be known by its simple name. However, every instance of an inner class is tied to a particular instance of its containing class: above, the Goat created in jerry, is implicitly tied to the Rhino instance this in jerry. Otherwise, we make the associated Rhino instance explicit when we instantiate Goat:
+
+> Well, the inner class instance has access to the instance members of the containing class instance.
