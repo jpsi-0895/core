@@ -21,3 +21,30 @@ a non-static method, JVM creates an object frst then call main() method that
 will lead the problem of extra memory allocation.
 
 > **Java static block** - It is executed before the main method at the time of classloading.
+
+> Side note: Of course, static members can access instance members through an object reference.
+>> static members can only refer to static members. Instance members can, of course access static members.
+
+## Static keyword CAN be used with:
+
+- Method
+
+- Variable
+
+- Class nested within another Class
+
+- Initialization Block
+
+## CAN'T be used with:
+
+- Class (Not Nested)
+
+- Constructor
+
+- Interfaces
+
+- Method Local Inner Class(Difference then nested class)
+
+- Inner Class methods
+
+- Local Variables
