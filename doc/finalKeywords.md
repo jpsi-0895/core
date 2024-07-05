@@ -40,3 +40,5 @@ class Honda1 extends Bike{    //cannot inherit from final Bike,this will make er
   }  
 
 ```
+
+> What is the difference between a final object and immutable object?
