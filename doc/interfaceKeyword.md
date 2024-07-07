@@ -25,3 +25,13 @@ public interface Interface
 }
 
 ```
+
+
+### Methods:
+
+ - Abstract: All methods in an interface are implicitly abstract. You don't need to use the abstract keyword. They only declare the method signature (name and parameters) but don't provide an implementation. Implementing classes must provide the functionality for these methods.
+- Public: By default, all interface methods are public. This ensures they are accessible by any class that implements the interface.
+
+### Fields (Constants):
+
+Static and final: Interfaces can have fields, but they must be declared static and final. This essentially creates constants accessible throughout the program. Their values are fixed at compile time.
