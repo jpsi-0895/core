@@ -48,3 +48,30 @@ There are many byte stream classes. To demonstrate how byte streams work, we'll 
 - DataOutputStream: Writes primitive Java data types to an underlying output stream.
 
 > Byte streams in Java are essential for handling raw binary data efficiently. 
+
+
+# Charcter Stream 
+
+Character streams are represented by classes that end with Reader or Writer. They provide methods to read and write characters, making them suitable for tasks like reading text files, processing user input as text, or transmitting textual data over network connections.
+
+## Key Classes for Character Streams
+
+### Reader and Writer:
+
+- Reader: Abstract class for reading characters.
+- Writer: Abstract class for writing characters.
+
+### FileReader and FileWriter:
+
+- FileReader: Reads characters from a file.
+- FileWriter: Writes characters to a file.
+
+### BufferedReader and BufferedWriter:
+
+- BufferedReader: Reads text from a character-input stream with buffering for efficiency.
+- BufferedWriter: Writes text to a character-output stream with buffering for efficiency.
+
+### InputStreamReader and OutputStreamWriter:
+
+- InputStreamReader: Bridge from byte streams to character streams, reading bytes and decoding them into characters using a specified charset.
+- OutputStreamWriter: Bridge from character streams to byte streams, converting characters into bytes using a specified charset.
