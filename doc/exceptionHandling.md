@@ -16,3 +16,27 @@ Thus it is a concept to handle runtime errors such as ClassNotFoundException, IO
 - Opening an unavailable file
 
 
+## Exception Hierarchy:
+
+All exception and error types are subclasses of the class Throwable, which is the base class of the hierarchy. One branch is headed by Exception. This class is used for exception conditions that users programs should catch.
+
+![Exception Handling Hierarchy](image.png)
+
+Types of exceptions
+
+1. User Defined Exceptions
+2. Built-in Exception
+    - Checked Exceptions
+        - ClassNotFoundExcepiton
+        - interruptedException
+        - InstantiationException
+        - IOException
+        - SQLException
+        - FileNotFoundException
+    - Unchecked Exceptions
+        - ArthmeticException
+        - ClassCastException
+        - NullPointerException
+        - ArrayStoreException
+        - ArrayIndexOutOfBoundException
+        - IllegalThreadStateException
