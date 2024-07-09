@@ -87,3 +87,18 @@ The caller to these methods has to handle the execution using try-catch block
     exception_list is a comma separated list of all the exceptions which a method might throw.
 
 ```
+
+Example:
+
+```java
+// Java program to illustrate throws
+class tst {
+    public static void main(String[] args)
+        throws InterruptedException
+    {
+        Thread.sleep(10000);
+        System.out.println("Hello Geeks");
+    }
+}
+
+```
