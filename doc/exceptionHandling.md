@@ -62,8 +62,28 @@ Types of exceptions
 
 ### Important keywords regarding Exceptions Handling
 
+Customized Exception Handling java exception handling is managed via five keywords:
+
 - try
 - catch
 - throw
 - throws
 - finally
+
+> How does JVM handle an Exception?
+> Throw and Throws in java?
+
+### Throws in java
+
+throws is a keyword in Java that is used in the signature of a methods to indicate that this method might throw one of the listed type exceptions.
+
+The caller to these methods has to handle the execution using try-catch block
+
+```java
+
+    Syntax of Java throws
+    type method_name(parameters) throws exception_list
+
+    exception_list is a comma separated list of all the exceptions which a method might throw.
+
+```
