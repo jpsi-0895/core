@@ -23,3 +23,4 @@ The collections framework consists of:
 - lgorithms. Static methods that perform useful functions on collections, such as sorting a list.
 - Infrastructure. Interfaces that provide essential support for the collection interfaces.
 - Array Utilities. Utility functions for arrays of primitive types and reference objects. Not, strictly speaking, a part of the collections framework, this feature was added to the Java platform at the same time as the collections framework and relies on some of the same infrastructure.
+
