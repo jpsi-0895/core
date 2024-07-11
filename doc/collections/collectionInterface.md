@@ -53,3 +53,9 @@ Accessing Elements:
 ### Iterating over elements:
 
 - iterator(): Returns an iterator object that allows you to traverse through the elements in the list one by one. You can use a loop with the <hasNext()> and <next()> methods of the iterator to process each element.
+
+# Sub-interfaces
+
+![java collection framework](image.png)
+
+The Collection interface serves as the foundation, and it has several sub-interfaces that extend its functionality and define more specific collection behaviors. 
