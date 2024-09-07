@@ -42,3 +42,23 @@ class ThrowExcep {
 	}
 }
 ```
+
+**Output**
+
+```
+Caught inside fun().
+Caught in main.
+```
+
+## Java throws
+
+`throws` is a keyword in Java that is used in the signature of a method to indicate that this method might throw one of the listed type exceptions. The caller to these methods has to handle the exception using a `try-catch` block.
+
+**Syntax of Java throws**
+
+```
+type method_name(parameters) throws exception_list
+
+exception_list is a comma separated list of all the
+exceptions which a method might throw.
+```
