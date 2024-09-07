@@ -62,3 +62,9 @@ type method_name(parameters) throws exception_list
 exception_list is a comma separated list of all the
 exceptions which a method might throw.
 ```
+
+## Important Points to Remember about throws Keyword
+
+- `throws` keyword is required only for checked exceptions and usage of the throws keyword for unchecked exceptions is meaningless.
+- `throws` keyword is required only to convince the compiler and usage of the throws keyword does not prevent abnormal termination of the program.
+- With the help of the `throws` keyword, we can provide information to the caller of the method about the exception.
