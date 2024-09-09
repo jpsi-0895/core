@@ -66,3 +66,18 @@ They are used to work with objects in situations where primitives are not allowe
 - `Autoboxing`: The automatic conversion that the Java compiler makes between primitive types and their corresponding wrapper classes. For example, converting int to Integer automatically when you add an int to a collection that requires Integer.
 
 - `Unboxing`: The reverse process of autoboxing, where an `Integer` object is automatically converted to an `int`.
+
+```java
+List<Integer> list = new ArrayList<>();
+list.add(10);  // autoboxing
+int value = list.get(0);  // unboxing
+```
+
+## How does Java handle numeric overflow and underflow?
+
+Java does not automatically check for `overflow` and `underflow` with primitive types. For example, adding two large int values might result in overflow, wrapping around to negative values. If you need to handle such cases, you should use classes from the `java.math` package, like `BigInteger` for arbitrary-precision integers.
+
+```java
+int maxInt = Integer.MAX_VALUE;
+int result = maxInt + 1;  // Overflow occurs
+```
