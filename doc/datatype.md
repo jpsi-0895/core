@@ -60,3 +60,9 @@ int x7 = 0x52*;
 - Boolean
 
 They are used to work with objects in situations where primitives are not allowed, such as in collections like `ArrayList` or `HashMap`. They also provide utility methods for converting between different types.
+
+## What is autoboxing and unboxing?
+
+- `Autoboxing`: The automatic conversion that the Java compiler makes between primitive types and their corresponding wrapper classes. For example, converting int to Integer automatically when you add an int to a collection that requires Integer.
+
+- `Unboxing`: The reverse process of autoboxing, where an `Integer` object is automatically converted to an `int`.
