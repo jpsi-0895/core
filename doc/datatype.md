@@ -45,3 +45,18 @@ int x7 = 0x52*;
 - `int`: This is a primitive data type. It stores the actual value and is more efficient in terms of performance.
 
 - `Integer`: This is a wrapper class for the int type, part of the `java.lang` package. It is an object that contains a field for the `int` value and provides utility methods for converting between int and other types. `Integer` is useful when working with collections that require objects, like `ArrayList`.
+
+## What are wrapper classes and why are they used?
+
+`Wrapper classes are used to convert primitive types into objects`. Java provides wrapper classes for each primitive type:
+
+- Byte
+- Short
+- Integer
+- Long
+- Float
+- Double
+- Character
+- Boolean
+
+They are used to work with objects in situations where primitives are not allowed, such as in collections like `ArrayList` or `HashMap`. They also provide utility methods for converting between different types.
