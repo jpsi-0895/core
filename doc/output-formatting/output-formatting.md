@@ -46,3 +46,54 @@ System.out.println(decimal); // Output: Decimal: 255
 ## 2. Using System.out.printf()
 
 The `System.out.printf()` method prints a formatted string to the console. It works similarly to `String.format()`, but directly outputs the formatted string.
+
+**Basic Syntax**
+
+```java
+System.out.printf(formatString, arguments);
+```
+
+### - Formatting Numbers:
+
+```java
+double pi = 3.141592653589793;
+System.out.printf("%.2f%n", pi);
+// Output: 3.14
+
+```
+
+### - Field Width and Alignment:
+
+```java
+System.out.printf("|%-10s|%n", "Left");
+System.out.printf("|%10s|%n", "Right");
+// Output:
+// |Left      |
+// |     Right|
+
+```
+
+### - Hexadecimal and Octal:
+
+```java
+int num = 255;
+System.out.printf("Hex: %x%n", num); // Output: Hex: ff
+System.out.printf("Octal: %o%n", num); // Output: Octal: 377
+System.out.printf("Decimal: %d%n", num); // Output: Decimal: 255
+
+```
+
+### - Padding with Zeros:
+
+```java
+System.out.printf("%010d%n", 42);
+// Output: 0000000042
+```
+
+### - Combining Formatting Options:
+
+
+```java
+System.out.printf("%-10s%05d%n", "Code", 42);
+// Output: Code     00042 (left-aligned with zero-padded integer)
+```
