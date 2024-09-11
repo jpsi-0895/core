@@ -42,3 +42,7 @@ System.out.println(hex); // Output: Hex: ff
 System.out.println(octal); // Output: Octal: 377
 System.out.println(decimal); // Output: Decimal: 255
 ```
+
+## 2. Using System.out.printf()
+
+The `System.out.printf()` method prints a formatted string to the console. It works similarly to `String.format()`, but directly outputs the formatted string.
