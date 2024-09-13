@@ -7,12 +7,12 @@ It provides the necessary tools and libraries to develop, compile, and debug Jav
 
     1.  Java Compiler (`javac`):
 
-        - `Function`: Converts Java source code (written in .java files) into `bytecode` (stored in .class files).
-        - `Command`: javac MyProgram.java
+        - `Function`: Converts Java source code (written in .java files) into `bytecode` (stored in `.class` files).
+        - `Command`: `javac MyProgram.java`
 
     2.  Java Virtual Machine (`JVM`):
 
-        - `Function`: Executes Java bytecode. While the JVM itself is not part of the JDK (it's part of the JRE), the JDK includes the JVM so that you can run and test your Java applications.
+        - `Function`: Executes Java `bytecode`. While the JVM itself is not part of the JDK (it's part of the JRE), the JDK includes the JVM so that you can run and test your Java applications.
         - Command to Run Bytecode: `java MyProgram`
 
     3.  Java Runtime Environment (`JRE`):
