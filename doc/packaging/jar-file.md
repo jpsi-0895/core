@@ -12,8 +12,9 @@ jar [options] [jar-file] [manifest-file] [entry-point] [files...]
 
 ## Common jar Commands and Options
 
-1. Creating a JAR File
-   To create a JAR file, use the cf options. The `c` option stands for `"create"`, and `f` stands for `"file"`.
+### 1. Creating a JAR File
+
+To create a JAR file, use the cf options. The `c` option stands for `"create"`, and `f` stands for `"file"`.
 
 ```sh
 jar cf MyArchive.jar -C path/to/classes/ .
@@ -30,3 +31,7 @@ jar cfm MyArchive.jar Manifest.txt -C path/to/classes/ .
 ```
 
 - `m`: Include the specified manifest file (`Manifest.txt`).
+
+### 2. Viewing the Contents of a JAR File
+
+To view the contents of a `JAR file`, use the tf options. The `t` option stands for `"list table of contents"`, and `f` specifies the `JAR file`.
