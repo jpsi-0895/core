@@ -39,6 +39,7 @@ To view the contents of a `JAR file`, use the tf options. The `t` option stands 
 ```sh
 jar tf MyArchive.jar
 ```
+
 ### 3. Extracting Files from a JAR File
 
 To extract files from a JAR file, use the `xf` options. The `x` option stands for `"extract"`, and `f` specifies the JAR file.
@@ -52,4 +53,11 @@ jar xf MyArchive.jar
 ```sh
 jar xf MyArchive.jar path/to/file
 ```
+
 ### 4. Updating an Existing JAR File
+
+To update an existing JAR file, use the `uf` options. The `u` option stands for `"update"`, and `f` specifies the JAR file.
+
+```sh
+jar uf MyArchive.jar NewFile.class
+```
