@@ -35,3 +35,21 @@ jar cfm MyArchive.jar Manifest.txt -C path/to/classes/ .
 ### 2. Viewing the Contents of a JAR File
 
 To view the contents of a `JAR file`, use the tf options. The `t` option stands for `"list table of contents"`, and `f` specifies the `JAR file`.
+
+```sh
+jar tf MyArchive.jar
+```
+### 3. Extracting Files from a JAR File
+
+To extract files from a JAR file, use the `xf` options. The `x` option stands for `"extract"`, and `f` specifies the JAR file.
+
+```sh
+jar xf MyArchive.jar
+```
+
+- By default, this extracts the contents to the current directory. You can also specify a specific file to extract:
+
+```sh
+jar xf MyArchive.jar path/to/file
+```
+### 4. Updating an Existing JAR File
