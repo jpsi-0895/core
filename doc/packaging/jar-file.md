@@ -61,3 +61,14 @@ To update an existing JAR file, use the `uf` options. The `u` option stands for 
 ```sh
 jar uf MyArchive.jar NewFile.class
 ```
+
+- This adds or updates NewFile.class in the existing MyArchive.jar.
+
+### 5. Adding Files to an Existing JAR File
+
+You can also add files to an existing JAR file with the `uf` options.
+
+```sh
+jar uf MyArchive.jar -C path/to/new/files/ .
+```
+- `-C path/to/new/files/ .`: Change to the specified directory and add all files in it.
