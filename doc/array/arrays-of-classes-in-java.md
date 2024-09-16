@@ -34,3 +34,26 @@ public class Person {
     }
 }
 ```
+
+## 2. Create an Array of Objects
+
+You can create an array of Person objects and initialize it. Here’s an example:
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        // Create an array of Person objects
+        Person[] people = new Person[3];
+
+        // Initialize the array with Person objects
+        people[0] = new Person("Alice", 30);
+        people[1] = new Person("Bob", 25);
+        people[2] = new Person("Charlie", 35);
+
+        // Access and use the objects in the array
+        for (Person person : people) {
+            person.displayInfo();
+        }
+    }
+}
+```
