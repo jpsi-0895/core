@@ -57,3 +57,31 @@ public class Main {
     }
 }
 ```
+
+## 3. Dynamic Arrays with ArrayLists
+
+If you need a dynamically sized collection instead of a `fixed-size` array, you can use `ArrayList`:
+
+```java
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+        // Create an ArrayList of Person objects
+        ArrayList<Person> peopleList = new ArrayList<>();
+
+        // Add Person objects to the ArrayList
+        peopleList.add(new Person("Alice", 30));
+        peopleList.add(new Person("Bob", 25));
+        peopleList.add(new Person("Charlie", 35));
+
+        // Access and use the objects in the ArrayList
+        for (Person person : peopleList) {
+            person.displayInfo();
+        }
+    }
+}
+```
+
+- `Dynamic Size`: `ArrayList` automatically resizes as elements are added or removed.
+- Convenience Methods: `ArrayList` provides methods like `add()`, `remove()`, `size()`, and more for easier management of the collection.
