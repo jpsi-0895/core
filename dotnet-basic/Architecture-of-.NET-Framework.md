@@ -1,3 +1,4 @@
+
 # Architecture of .NET Framework
 
 The two major components of .NET Framework are the `Common Language Runtime` and the `.NET Framework Class Library`.
@@ -13,7 +14,7 @@ The two major components of .NET Framework are the `Common Language Runtime` and
 
 When an app runs, the CLR takes the assembly and uses a `just-in-time` compiler (`JIT`) to turn it into machine code that can execute on the specific architecture of the computer it is running on.
 
-> You can use .NET Framework to develop the following types of apps and services:
+> You can use `.NET Framework` to develop the following types of apps and services:
 
 - `Console apps`
 
