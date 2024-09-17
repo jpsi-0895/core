@@ -124,3 +124,36 @@ String message = hello + ", " + world + "!"; // "Hello, World!"
 ```java
 String message = hello.concat(", ").concat(world).concat("!"); // "Hello, World!"
 ```
+
+## 5. String Formatting
+
+You can use `String.format` for formatted strings, similar to `printf` in other languages:
+
+```java
+String formatted = String.format("Hello, %s! You are number %d.", "Alice", 1);
+// "Hello, Alice! You are number 1."
+```
+
+## 6. StringBuilder and StringBuffer
+
+For scenarios where strings need to be modified frequently, `StringBuilder` (non-synchronized) and `StringBuffer` (synchronized) are recommended:
+
+- `StringBuilder`:
+
+```java
+StringBuilder sb = new StringBuilder("Hello");
+sb.append(", World!");
+String result = sb.toString(); // "Hello, World!"
+```
+
+- `StringBuffer`:
+
+```java
+StringBuffer sb = new StringBuffer("Hello");
+sb.append(", World!");
+String result = sb.toString(); // "Hello, World!"
+```
+
+```java
+
+```
