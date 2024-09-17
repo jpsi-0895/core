@@ -53,3 +53,33 @@ int index = str1.indexOf("World"); // 7
 ```java
 int lastIndex = str1.lastIndexOf("o"); // 8
 ```
+
+- `Replace`: Replace occurrences of a substring with another substring.
+
+```java
+String replaced = str1.replace("World", "Java"); // "Hello, Java!"
+```
+
+- `ToUpperCase`: Convert all characters in the string to uppercase.
+
+```java
+String upper = str1.toUpperCase(); // "HELLO, WORLD!"
+```
+
+- `ToLowerCase`: Convert all characters in the string to lowercase.
+
+```java
+String lower = str1.toLowerCase(); // "hello, world!"
+```
+
+```java
+
+```
+
+```java
+
+```
+
+```java
+
+```
