@@ -72,8 +72,10 @@ String upper = str1.toUpperCase(); // "HELLO, WORLD!"
 String lower = str1.toLowerCase(); // "hello, world!"
 ```
 
-```java
+- `Trim`: Remove leading and trailing whitespace.
 
+```java
+String trimmed = "   Hello, World!   ".trim(); // "Hello, World!"
 ```
 
 ```java
