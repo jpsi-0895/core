@@ -107,10 +107,20 @@ String original = "Hello";
 String modified = original.concat(", World!"); // "Hello, World!"
 ```
 
-```java
+## 4. String Concatenation
 
+You can concatenate strings using the `+ operator` or the concat method:
+
+- Using `+` Operator:
+
+```java
+String hello = "Hello";
+String world = "World";
+String message = hello + ", " + world + "!"; // "Hello, World!"
 ```
 
-```java
+- Using `concat` Method:
 
+```java
+String message = hello.concat(", ").concat(world).concat("!"); // "Hello, World!"
 ```
