@@ -154,6 +154,22 @@ sb.append(", World!");
 String result = sb.toString(); // "Hello, World!"
 ```
 
+## 7. Regular Expressions
+
+Java provides support for regular expressions through the `Pattern` and `Matcher` classes:
+
+```java
+import java.util.regex.*;
+
+Pattern pattern = Pattern.compile("World");
+Matcher matcher = pattern.matcher(str1);
+boolean found = matcher.find(); // true
+```
+
+```java
+
+```
+
 ```java
 
 ```
