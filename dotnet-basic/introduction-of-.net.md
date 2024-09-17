@@ -28,3 +28,10 @@ A Framework is a `Software`. Or you can say a framework is a collection of many 
 ## What is .NET Framework?
 
 According to Microsoft, .NET Framework is a software development framework for building and running applications on Windows. The `.NET Framework` is part of the .NET platform, a collection of technologies for building apps for Linux, macOS, Windows, iOS, Android, and more.
+
+## What does the .NET Framework Provide?
+
+The two major components of the `.NET Framework` are the Common Language Runtime and the .NET Framework Class Library.
+
+1. `CL` (Class Libraries)
+2. `CLR` (Common Language Runtime)
