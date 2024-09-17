@@ -78,6 +78,35 @@ String lower = str1.toLowerCase(); // "hello, world!"
 String trimmed = "   Hello, World!   ".trim(); // "Hello, World!"
 ```
 
+### String Comparison
+
+- `Equals`: Compare two strings for equality.
+
+```java
+boolean isEqual = str1.equals("Hello, World!"); // true
+```
+
+- `EqualsIgnoreCase`: Compare two strings for equality, ignoring case.
+
+```java
+boolean isEqualIgnoreCase = str1.equalsIgnoreCase("hello, world!"); // true
+```
+
+- `CompareTo`: Compare two strings lexicographically.
+
+```java
+int comparison = str1.compareTo("Hello, World!"); // 0 (equal)
+```
+
+## 3. String Immutability
+
+Strings in Java are `immutable`, meaning once a String object is created, its content cannot be changed. Any modification operations (e.g., concatenation) produce a `new String` object.
+
+```java
+String original = "Hello";
+String modified = original.concat(", World!"); // "Hello, World!"
+```
+
 ```java
 
 ```
