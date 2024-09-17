@@ -166,10 +166,17 @@ Matcher matcher = pattern.matcher(str1);
 boolean found = matcher.find(); // true
 ```
 
-```java
+## 8. String Splitting and Joining
 
+- **`Split`**: Divide a string into an array of substrings based on a delimiter.
+
+```java
+String text = "apple,banana,orange";
+String[] fruits = text.split(","); // ["apple", "banana", "orange"]
 ```
 
-```java
+- **`Join`**: Combine an array of strings into a single string with a delimiter.
 
+```java
+String joined = String.join(", ", fruits); // "apple, banana, orange"
 ```
