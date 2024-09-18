@@ -58,3 +58,18 @@ public class MyAppException extends Exception {
     }
 }
 ```
+
+## 4. Exception Handling in Object-Oriented Design
+
+- a. `Layered Architecture`
+  In layered architectures, exceptions can propagate up the layers. For example, lower layers (data access) may `throw exceptions` that higher layers (business logic) catch and handle accordingly. This separation of concerns keeps error handling organized.
+
+- b. `Use of Interfaces`
+  Define interfaces for classes that can throw exceptions. This allows you to standardize error handling across different implementations.
+
+## Types of Exceptions
+
+Java has two main categories of exceptions:
+
+- `Checked Exceptions`: These are checked at `compile-time`. Classes that extend Exception (except for `RuntimeException` and its subclasses) are checked exceptions.
+- `Unchecked Exceptions`: These are not checked at `compile-time` and include errors that extend `RuntimeException`.
