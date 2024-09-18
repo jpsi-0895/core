@@ -17,3 +17,11 @@ Exceptions are events that disrupt the normal flow of program execution. They ca
 - `Catching Exceptions`: The thrown exception can be caught using `try-catch` blocks, allowing the program to handle the error gracefully instead of `crashing`.
 
 - `Finally Block`: A finally block can be used to execute code that must run regardless of whether an exception occurred, such as releasing resources.
+
+## 3. Object Modeling of Exceptions
+
+In object-oriented design, exceptions can be treated as first-class objects. Here's how to model exceptions effectively:
+
+- **a. Custom Exception Classes**
+
+  1. `Inheritance`: Create a hierarchy of custom exception classes that extend standard exception classes. This allows for more specific error handling and categorization.
