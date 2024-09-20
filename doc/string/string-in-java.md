@@ -2,6 +2,28 @@
 
 Strings in Java are a fundamental data type used for representing and manipulating text. Java provides a robust String class in the `java.lang` package, which offers a variety of methods to work with strings effectively.
 
+**Key:**
+
+- `Character Array`: `Mutable` (can change the contents), but requires more manual handling.
+- `String`: `Immutable` (cannot change once created), but provides many utility methods for manipulation.
+
+```java
+public class StringExample {
+    public static void main(String[] args) {
+        // Declare and initialize a String
+        String str = "Hello";
+
+        // Convert String to character array
+        char[] charArray = str.toCharArray();
+
+        // Accessing elements of the character array
+        for (char c : charArray) {
+            System.out.print(c);
+        }
+    }
+}
+```
+
 Here’s a comprehensive guide to understanding and working with strings in Java:
 
 ## 1. String Declaration and Initialization
