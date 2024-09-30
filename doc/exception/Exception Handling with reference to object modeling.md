@@ -73,3 +73,5 @@ Java has two main categories of exceptions:
 
 - `Checked Exceptions`: These are checked at `compile-time`. Classes that extend Exception (except for `RuntimeException` and its subclasses) are checked exceptions.
 - `Unchecked Exceptions`: These are not checked at `compile-time` and include errors that extend `RuntimeException`.
+
+![classes for exception](image.png)
