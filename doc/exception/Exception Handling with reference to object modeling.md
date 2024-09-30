@@ -79,3 +79,7 @@ Java has two main categories of exceptions:
 
 ## What are Checked exceptions?
 The exceptions that are subtypes of `Exception` (`exclude subtypes of RuntimeException`) are categorized as checked exceptions. When we use code that can `throw checked exceptions`, we must handle them, otherwise the compiler will complain.
+
+## What are Unchecked exceptions?
+
+In contrast, we don’t have to catch *unchecked exceptions* which are subtypes of `Error` and `RuntimeException`. Methods also don’t have to declare to throw unchecked exceptions. It’s because programs typically cannot be recovered from unchecked exceptions.
