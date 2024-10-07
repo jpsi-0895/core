@@ -38,3 +38,8 @@ public class Main {
 }
 
 ```
+
+## How join() Works
+
+When you call `thread.join()`, the calling thread will pause its execution until the specified thread (the one on which `join()` was called) completes.
+This can help prevent issues that arise from trying to access resources that may still be in use by another thread.
