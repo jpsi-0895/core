@@ -53,3 +53,14 @@ class Example {
 ## 5. No Access to Instance Variables
 
 Static blocks cannot access `instance variables` or `instance methods` directly since they are not tied to a specific `instance` of the class.
+
+```java
+class Example {
+    int instanceValue = 10;
+
+    static {
+        // This would cause a compilation error
+        // System.out.println(instanceValue);
+    }
+}
+```
