@@ -33,5 +33,9 @@ class Example {
 ```
 
 ## 3. Only Executed Once
+
 Static blocks are executed only once when the class is loaded into `memory`. They are not executed every time an instance of the class is created.
 
+## 4. Access to Static Members
+
+Static blocks can access static variables and methods of the class directly.
