@@ -64,3 +64,21 @@ class Example {
     }
 }
 ```
+
+## 6. Exception Handling
+
+You can include try-catch blocks within static blocks to handle exceptions that may occur during initialization.
+
+```java
+class Example {
+    static int value;
+
+    static {
+        try {
+            value = Integer.parseInt("not a number"); // This will throw an exception
+        } catch (NumberFormatException e) {
+            value = 0; // Fallback initialization
+        }
+    }
+}
+```
