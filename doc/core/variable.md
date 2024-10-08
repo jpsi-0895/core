@@ -21,5 +21,13 @@ class Example {
 Static blocks are executed in the order they appear in the class. If there are multiple static blocks, they will run sequentially.
 
 ```java
+class Example {
+    static {
+        System.out.println("First static block");
+    }
 
+    static {
+        System.out.println("Second static block");
+    }
+}
 ```
