@@ -82,3 +82,6 @@ class Example {
     }
 }
 ```
+## 7. Static Block in Inheritance
+In the case of inheritance, the static block of the parent class is executed before the static block of the child class when the child class is loaded.
+
