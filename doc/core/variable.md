@@ -39,3 +39,13 @@ Static blocks are executed only once when the class is loaded into `memory`. The
 ## 4. Access to Static Members
 
 Static blocks can access static variables and methods of the class directly.
+
+```java
+class Example {
+    static int value = 5;
+
+    static {
+        System.out.println("Value: " + value);
+    }
+}
+```
