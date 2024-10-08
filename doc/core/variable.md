@@ -86,3 +86,17 @@ class Example {
 ## 7. Static Block in Inheritance
 
 In the case of `inheritance`, the static block of the parent class is executed before the `static` block of the child class when the child class is loaded.
+
+```java
+class Parent {
+    static {
+        System.out.println("Parent static block");
+    }
+}
+
+class Child extends Parent {
+    static {
+        System.out.println("Child static block");
+    }
+}
+```
