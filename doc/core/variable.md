@@ -4,7 +4,7 @@ A static block is a section of code that runs when the class is loaded, before a
 
 ## 1. Initialization of Static Variables
 
-Static blocks are commonly used to initialize static variables. This can be useful for complex initialization that cannot be done in a single line.
+Static blocks are commonly used to initialize `static` variables. This can be useful for complex initialization that cannot be done in a single line.
 
 ```java
 class Example {
@@ -18,7 +18,7 @@ class Example {
 
 ## 2. Execution Order
 
-Static blocks are executed in the order they appear in the class. If there are multiple static blocks, they will run sequentially.
+Static blocks are executed in the order they appear in the class. If there are `multiple` static blocks, they will run sequentially.
 
 ```java
 class Example {
@@ -31,3 +31,7 @@ class Example {
     }
 }
 ```
+
+## 3. Only Executed Once
+Static blocks are executed only once when the class is loaded into `memory`. They are not executed every time an instance of the class is created.
+
