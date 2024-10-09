@@ -15,6 +15,8 @@ class  Parent {
 }
 public class Access extends Parent{
     public static void main(String[] args) {
-        
+        Access obj = new Access();
+
+        obj.method1();
     }
 }
