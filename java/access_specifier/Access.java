@@ -1,5 +1,5 @@
 
-package java.access_specifier;
+// package java.access_specifier;
 
 /**
  *  Parent
