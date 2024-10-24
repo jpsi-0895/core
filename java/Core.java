@@ -11,6 +11,11 @@ public class Core {
         // }
         // }
 
-        long bigNum = 1_234;
+        // long bigNum = 1_234; //working
+        long bigNum = 1_234l; // working
+        long bigNum1 = 1_234L; // working
+        long bigNum2 = 1234; // working
     }
 }
+
+// The long data type is a 64-bit signed integer, and you can assign values directly or through calculations
