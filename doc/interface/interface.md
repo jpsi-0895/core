@@ -26,3 +26,5 @@ An `object` type determines which attributes exist in memory. When an object is 
 The `reference` type can influence what methods and attributes you can access through that reference, especially in cases of polymorphism, but the actual attributes that exist in memory are dictated by the object's class type.
 
 So, `to summarize`: the `object type` defines the attributes in memory, while the `reference type` affects how you can interact with the object.
+
+
