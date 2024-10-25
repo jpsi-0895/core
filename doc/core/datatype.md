@@ -12,3 +12,8 @@ float myFloat = 2.5f;  // Correct
 ### Default Value:
 
 If you declare a `float` variable without initializing it, its default value will be `0.0f`.
+
+```java
+float result = 0.1f + 0.2f;
+System.out.println("Result: " + result);  // May output: 0.30000004
+```
