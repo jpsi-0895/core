@@ -4,9 +4,9 @@ In Java, the `char` data type is used to represent a single `16-bit Unicode` cha
 
 ## Characteristics of char
 
-- Size: A char in Java is always 2 bytes (16 bits) because it is based on Unicode.
-- Single Quotes: char literals are enclosed in single quotes (e.g., 'A', '1', '#').
-- Escape Sequences: You can use escape sequences to represent special
+- `Size`: A char in Java is always 2 bytes (16 bits) because it is based on Unicode.
+- `Single Quotes`: char literals are enclosed in single quotes (e.g., 'A', '1', '#').
+- `Escape Sequences`: You can use escape sequences to represent special
 
 characters:
 `'\n'` for a new line
