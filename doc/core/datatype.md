@@ -23,3 +23,8 @@ System.out.println("Result: " + result);  // May output: 0.30000004
 The range of values for float is approximately `1.4E-45 to 3.4E+3`8. Values outside this range will result in `overflow` or `underflow`.
 
 - `Integer Division`: If both operands are integers, Java performs integer division, which discards any `fractional` part. To ensure floating-point division, at least one operand should be a `double` (or `float`):
+
+```java
+double result = 10 / 4;     // This results in 2.0
+double result2 = 10.0 / 4;  // This results in 2.5
+```
